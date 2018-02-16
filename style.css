@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("Open_Sans/OpenSans-Light.ttf");
+}
+
+body {
+	background: linear-gradient(to right, #f857a6, #ff5858);
+	font-family: "Open Sans";
+}
+
+form {
+	background-color: white;
+	margin-left: 37%;
+	margin-right: 37%;
+	margin-top: 100px;
+	border-radius: 5px;
+	padding: 20px 0px 20px 40px;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+input {
+	font-family: "Open Sans";
+	width: 85%;
+	font-size: 16px;
+}
+
+button {
+	display: block;
+	width: 87%;
+	background-color: #ff1493;
+	font-family: "Open Sans";
+	color: #fff;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.material-icons {
+	position: absolute;
+	right: 38%;
+}
