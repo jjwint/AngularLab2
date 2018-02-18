@@ -38,3 +38,7 @@ button {
 	position: absolute;
 	right: 38%;
 }
+
+.hvrState {
+	background-color: #ccc;
+}
