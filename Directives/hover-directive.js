@@ -1,10 +1,8 @@
 (function() {
 
-	function HoverItem() {
+	function hoverState() {
 		return {
-			restrict: "E",
-			replace: true,
-			templateUrl: "Templates/taskList.html",
+			restrict: "A",
 			link: function($scope, $element, $attrs) {
 				$element.on("mouseenter", function() {
 					$element.css("background-color", "#ccc");
@@ -18,6 +16,6 @@
 
 	angular
 		.module("app")
-		.directive("hoverItem", HoverItem);
+		.directive("hoverState", hoverState);
 
 })();
